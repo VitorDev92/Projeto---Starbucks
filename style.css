@@ -127,7 +127,7 @@ p:hover {
     transform: translate3d(5px, 5px, -135px);
  }
 
- @media screen and (max-width: 480px) {
+ @media screen and (min-width:480) and (max-width: 780px) {
 
     .circulo {
         clip-path: circle(600px at right 400px);
