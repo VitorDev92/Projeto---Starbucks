@@ -113,7 +113,6 @@ p:hover {
     width: 60px;
     cursor: pointer;
     transition: 1s;
-    position: static;
 }
 
 .copo-pequeno:hover {
