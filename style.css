@@ -41,6 +41,8 @@
      padding: 10px;
      border-radius: 20px;
      cursor: pointer;
+     box-shadow: 10px 5px 20px rgb(2, 29, 16);
+     transition: 1s;
  }
  
  h2 {
@@ -88,3 +90,67 @@
      left: 0;
      clip-path: circle(600px at right 800px);
  }
+
+ button:hover {
+    opacity: 0.6;
+    transform: translate3d(5px, 5px, -135px);
+ }
+
+ @media screen and (max-width: 500px) {
+
+    .circulo {
+        clip-path: circle(600px at right 400px);
+        z-index: -1;
+    }
+
+    button {
+        background: #fff;
+        color: #000;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    span {
+        font-size: 35px;
+        color: #3a3a3a;
+    }
+
+    .caixa-texto {
+        color: #fff;
+        width: 400px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .caixa-imagem {
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        padding-bottom: 770px;
+        margin-left: 190px;
+    }
+
+    .starbucks {
+        width: 45px;
+    }
+
+    .copo-pequeno {
+        width: 50px;
+    }
+
+    body {
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
