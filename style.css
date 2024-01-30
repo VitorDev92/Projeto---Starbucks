@@ -129,7 +129,7 @@ p:hover {
     clip-path: circle(600px at right 800px);
 }
 
-@media screen and (min-width:375px) and (max-width: 500px) {
+@media screen and (min-width:375px) and (max-width: 812px) {
 
     .circulo {
         clip-path: circle(600px at right 400px);
