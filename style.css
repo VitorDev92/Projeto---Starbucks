@@ -134,7 +134,7 @@ p:hover {
     .circulo {
         clip-path: circle(600px at right 400px);
         z-index: -1;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
     }
 
     button {
