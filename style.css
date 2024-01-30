@@ -171,6 +171,7 @@ p:hover {
         position: absolute;
         padding-bottom: 770px;
         margin-left: 190px;
+        margin-bottom: 100px;
     }
 
     .starbucks {
@@ -179,7 +180,7 @@ p:hover {
 
     .copo-pequeno {
         width: 50px;
-        margin-bottom: 100px;
+       
     }
 
     body {
