@@ -129,12 +129,11 @@ p:hover {
     clip-path: circle(600px at right 800px);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width:375px) and (max-width: 500px) {
 
     .circulo {
         clip-path: circle(600px at right 400px);
         z-index: -1;
-        margin-bottom: 100px;
     }
 
     button {
@@ -172,7 +171,6 @@ p:hover {
         position: absolute;
         padding-bottom: 770px;
         margin-left: 190px;
-        margin-bottom: 10%;
     }
 
     .starbucks {
